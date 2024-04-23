@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{ac01abe5-1714-46db-b268-ddedfb48d546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\api">
+      <UniqueIdentifier>{ee249e1a-e1b2-4b9c-93a4-8253ba5dba3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\api\unload">
+      <UniqueIdentifier>{8d8b8030-69d6-4034-a587-aa35d810bb64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\api\hook">
+      <UniqueIdentifier>{adea1843-a204-40ff-a991-9647976290de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies">
+      <UniqueIdentifier>{d725b492-9371-4515-b10a-13a9052a0707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\funchook">
+      <UniqueIdentifier>{110d8b5c-56df-40ed-bc2a-fec2479b78c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\imgui">
+      <UniqueIdentifier>{2c4bf59c-768a-4069-a3fc-a638260a1972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\funchook\include">
+      <UniqueIdentifier>{dd77abde-551e-4e91-8dd5-c51720865268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\funchook\src">
+      <UniqueIdentifier>{1d661340-f7a3-4986-bc6d-2402d469ef65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\hooks">
+      <UniqueIdentifier>{edceeaa6-995f-42b2-b69c-3a193f74fe17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\entry">
+      <UniqueIdentifier>{b478dbee-7a0b-4a8a-9a5a-2064334fe118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\hooks\graphics">
+      <UniqueIdentifier>{0975a8fe-918c-4c21-95f1-1c17b91f6337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\hooks\graphics\input">
+      <UniqueIdentifier>{6727f708-4586-4492-a24d-56968f283050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\hooks\graphics\directx">
+      <UniqueIdentifier>{97c43191-592d-42d8-bd1a-bc85f7da4a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\menu">
+      <UniqueIdentifier>{d7a72e4d-ecf6-408d-a699-56c910d1bbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\fivem">
+      <UniqueIdentifier>{4681ea93-d647-4bef-ba6c-8b7b15947f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\fivem\classes">
+      <UniqueIdentifier>{fa467d9e-d36f-4ac9-8a8a-155f53e0930c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\fivem\includes">
+      <UniqueIdentifier>{385d4648-b780-4351-995c-d1069fe89b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\fivem\memory">
+      <UniqueIdentifier>{a0214358-40ee-4e75-9127-0a7a13674918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\fivem\native">
+      <UniqueIdentifier>{e3b1cc3e-49c3-43f1-9170-3b23bece17f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\fivem\features">
+      <UniqueIdentifier>{48a6fc52-4c27-440b-a01f-778cf13d8b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\fivem\threading">
+      <UniqueIdentifier>{b6125bca-34ee-482e-b55b-315786fc0733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\fivem\threading\hooking">
+      <UniqueIdentifier>{af9ddbba-7318-4412-a4c3-82c8dd13a48f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\fivem\threading\newtls">
+      <UniqueIdentifier>{95174535-b5be-4843-bca6-12a72d15b9cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\api\unload\unload.cpp">
+      <Filter>Source Files\src\api\unload</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\decoder.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\disasm_distorm.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\distorm.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\funchook.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\funchook_windows.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\funchook_x86.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\instructions.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\insts.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\mnemonics.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\operands.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\prefix.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\funchook\src\textdefs.c">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_demo.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_tables.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\hooks.cpp">
+      <Filter>Source Files\src\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entry\init_cheat.hpp">
+      <Filter>Source Files\src\entry</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_draw.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx9.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx10.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx12.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\graphics\input\wndproc_hook.cpp">
+      <Filter>Source Files\src\hooks\graphics\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\graphics\directx\directx11_hook.cpp">
+      <Filter>Source Files\src\hooks\graphics\directx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\menu.cpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fivem\features\visuals.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fivem\features\aimbot.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fivem\features\player.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fivem\features\weapons.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fivem\features\vehicles.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fivem\features\lists.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fivem\features\noclip.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu\custom.cpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fivem\features\locations.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClCompile>
+    <ClCompile Include="RAGEHelper.cpp">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="scripthook.cpp">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Zydis.c">
+      <Filter>Source Files\src\fivem\threading\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="safetyhook.cpp">
+      <Filter>Source Files\src\fivem\threading\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\buffer.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\hde\hde32.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\hde\hde64.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\hook.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minhook\trampoline.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="fiber.cpp">
+      <Filter>Source Files\src\fivem\threading\newtls</Filter>
+    </ClCompile>
+    <ClCompile Include="scroupthick.cpp">
+      <Filter>Source Files\src\fivem\threading\newtls</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>Source Files\src\fivem\threading\newtls</Filter>
+    </ClCompile>
+    <ClCompile Include="hmac_sha256.c">
+      <Filter>Source Files\src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sha256.c">
+      <Filter>Source Files\src\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\funchook\include\distorm.h">
+      <Filter>Source Files\dependencies\funchook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\include\mnemonics.h">
+      <Filter>Source Files\dependencies\funchook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\config.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\decoder.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\disasm.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\funchook.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\funchook_internal.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\funchook_x86.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\instructions.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\insts.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\operands.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\prefix.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\textdefs.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\wstring.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\funchook\src\x86defs.h">
+      <Filter>Source Files\dependencies\funchook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imconfig.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx11.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_win32.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_internal.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_rectpack.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_textedit.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\hooks.hpp">
+      <Filter>Source Files\src\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\hook\hook.hpp">
+      <Filter>Source Files\src\api\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\hook\virtual.hpp">
+      <Filter>Source Files\src\api\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx9.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx10.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx12.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_opengl3.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_truetype.h">
+      <Filter>Source Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\menu.hpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fivem\settings.hpp">
+      <Filter>Source Files\src\fivem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fivem\classes\classes.hpp">
+      <Filter>Source Files\src\fivem\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fivem\includes\includes.hpp">
+      <Filter>Source Files\src\fivem\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fivem\includes\encrypt_funcs.hpp">
+      <Filter>Source Files\src\fivem\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fivem\includes\encrypt_strings.hpp">
+      <Filter>Source Files\src\fivem\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fivem\memory\memory.hpp">
+      <Filter>Source Files\src\fivem\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fivem\native\invoker.hpp">
+      <Filter>Source Files\src\fivem\native</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fivem\native\invoker_definitions.hpp">
+      <Filter>Source Files\src\fivem\native</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entry\auth.hpp">
+      <Filter>Source Files\src\entry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\bytes.hpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu\custom.hpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fivem\features\configs.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiNotify.hpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RAGEHelper.hpp">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="includethread.h">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="PgCollection.h">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrCollection.h">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="joaat.hpp">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="hashes.hpp">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="scripthook.hpp">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.hpp">
+      <Filter>Source Files\src\fivem\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis.h">
+      <Filter>Source Files\src\fivem\threading\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="safetyhook.hpp">
+      <Filter>Source Files\src\fivem\threading\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\buffer.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\hde\hde32.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\hde\hde64.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\hde\pstdint.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\hde\table32.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\hde\table64.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\MinHook.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minhook\trampoline.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Source Files\src\fivem\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="font_awesome.hpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="fiber.hpp">
+      <Filter>Source Files\src\fivem\threading\newtls</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Source Files\src\fivem\threading\newtls</Filter>
+    </ClInclude>
+    <ClInclude Include="scroupthick.hpp">
+      <Filter>Source Files\src\fivem\threading\newtls</Filter>
+    </ClInclude>
+    <ClInclude Include="singeton.hpp">
+      <Filter>Source Files\src\fivem\threading\newtls</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.hpp">
+      <Filter>Source Files\src\fivem\threading\newtls</Filter>
+    </ClInclude>
+    <ClInclude Include="tick.hpp">
+      <Filter>Source Files\src\fivem\threading\newtls</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.hpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="hmac_sha256.h">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="sha256.h">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.hpp">
+      <Filter>Source Files\src\fivem\features</Filter>
+    </ClInclude>
+    <ClInclude Include="console_log.cpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="console_log.hpp">
+      <Filter>Source Files\src\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\minhook\MinHook.def">
+      <Filter>Source Files\src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib" />
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+</Project>
